@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-13T12:54:00 IST" name="Default suite" finished-at="2020-05-13T12:54:09 IST" duration-ms="9102">
+    <groups>
+    </groups>
+    <test started-at="2020-05-13T12:54:00 IST" name="Default test" finished-at="2020-05-13T12:54:09 IST" duration-ms="9102">
+      <class name="com.petstore.pet.EndToEndSmokeTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:00 IST" name="beforeSuite" finished-at="2020-05-13T12:54:00 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:00 IST" name="beforeClass" finished-at="2020-05-13T12:54:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:00 IST" name="beforeMethod" finished-at="2020-05-13T12:54:00 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.petstore.pet.EndToEndSmokeTest.createPetTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createPetTest()[pri:1, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:00 IST" name="createPetTest" finished-at="2020-05-13T12:54:06 IST" duration-ms="5133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:06 IST" name="afterMethod" finished-at="2020-05-13T12:54:07 IST" duration-ms="1003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetTest status=SUCCESS method=EndToEndSmokeTest.createPetTest()[pri:1, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:07 IST" name="beforeMethod" finished-at="2020-05-13T12:54:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.petstore.pet.EndToEndSmokeTest.GetPetDetailsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GetPetDetailsTest()[pri:2, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:07 IST" name="GetPetDetailsTest" finished-at="2020-05-13T12:54:07 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetPetDetailsTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:07 IST" name="afterMethod" finished-at="2020-05-13T12:54:08 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetPetDetailsTest status=SUCCESS method=EndToEndSmokeTest.GetPetDetailsTest()[pri:2, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:08 IST" name="beforeMethod" finished-at="2020-05-13T12:54:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.petstore.pet.EndToEndSmokeTest.updatePetDetailsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updatePetDetailsTest()[pri:3, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:08 IST" name="updatePetDetailsTest" finished-at="2020-05-13T12:54:08 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetDetailsTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:08 IST" name="afterMethod" finished-at="2020-05-13T12:54:09 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updatePetDetailsTest status=SUCCESS method=EndToEndSmokeTest.updatePetDetailsTest()[pri:3, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:09 IST" name="beforeMethod" finished-at="2020-05-13T12:54:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.petstore.pet.EndToEndSmokeTest.deletePetDetailsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deletePetDetailsTest()[pri:4, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:09 IST" name="deletePetDetailsTest" finished-at="2020-05-13T12:54:09 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetDetailsTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff]" started-at="2020-05-13T12:54:09 IST" name="afterMethod" finished-at="2020-05-13T12:54:09 IST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletePetDetailsTest status=SUCCESS method=EndToEndSmokeTest.deletePetDetailsTest()[pri:4, instance:com.petstore.pet.EndToEndSmokeTest@3bb9a3ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.petstore.pet.EndToEndSmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

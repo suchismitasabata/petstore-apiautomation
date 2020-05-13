@@ -1,0 +1,9 @@
+0    [2020-05-13 12:54:05,998] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - 200
+44   [2020-05-13 12:54:06,042] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - {"id":2,"name":"name","photoUrls":["url"],"tags":[{"id":1,"name":"tagname"}],"status":"status"}
+1827 [2020-05-13 12:54:07,825] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - 200
+1828 [2020-05-13 12:54:07,826] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - Response Body is =>  {"id":2,"name":"name","photoUrls":["url"],"tags":[{"id":1,"name":"tagname"}],"status":"status"}
+2074 [2020-05-13 12:54:08,072] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - PATH ---->    src\test\resources\configuration.properties
+2859 [2020-05-13 12:54:08,857] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - Response :{"id":2,"name":"name","photoUrls":["url"],"tags":[{"id":1,"name":"tagname"}],"status":"status"}
+2859 [2020-05-13 12:54:08,857] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - Status Code :200
+3788 [2020-05-13 12:54:09,786] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - Response :{"code":200,"type":"unknown","message":"2"}
+3788 [2020-05-13 12:54:09,786] [INFO ] [com.petstore.pet.EndToEndSmokeTest ] - Status Code :200
